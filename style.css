@@ -1,0 +1,60 @@
+
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700|Noto+Sans:400,700|Noto+Serif);
+
+/* -------  Structure ------- */
+
+body {
+	background-image:url(images/subtle_brown_mini_waves.png);
+  	margin: 0;
+}
+
+header {
+	height: 140px;
+	background-color: #e7e1dc;
+		
+}
+a:link { color: #38786a; }
+a:visited { color: #38786a; }
+a:hover { color: #403933; }
+a:active { color: #403933; }
+
+
+footer {
+	height: 90px;
+	background-color: #807871;
+	background-image:url(images/subtle_brown_mini_waves.png);
+	text-align:center;
+}
+
+.wrapper {
+	width: 580px;
+	margin: auto;
+	background-color: #bda591;	
+}
+
+img {
+ width: 100%;	
+}
+footer p {
+	color: black;	
+	text-align: left;
+}
+.gap-sm {
+    height: 50px;
+    width: auto;
+}
+.gap-md {
+    height: 100px;
+    width: auto;
+}
+.gap-lg {
+    height: 200px;
+    width: auto;
+}
+
+.gap-footer {
+    height: 10px;
+    width: auto;
+}
+
+
