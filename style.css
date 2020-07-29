@@ -7,10 +7,12 @@ body {
 	background-image:url(images/subtle_brown_mini_waves.png);
   	margin: 0;
 }
-
+/* place header here*/
 header {
+	font-family: 'Playfair Display', serif;
 	height: 140px;
 	background-color: #e7e1dc;
+	padding : 10px;
 		
 }
 a:link { color: #38786a; }
@@ -27,7 +29,7 @@ footer {
 }
 
 .wrapper {
-	width: 580px;
+	width: 780px;
 	margin: auto;
 	background-color: #bda591;	
 }
@@ -37,24 +39,10 @@ img {
 }
 footer p {
 	color: black;	
-	text-align: left;
+	text-align: center;
 }
-.gap-sm {
-    height: 50px;
-    width: auto;
-}
-.gap-md {
-    height: 100px;
-    width: auto;
-}
-.gap-lg {
-    height: 200px;
-    width: auto;
-}
-
-.gap-footer {
-    height: 10px;
-    width: auto;
+.location{
+	margin: auto;
 }
 
 
