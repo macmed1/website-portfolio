@@ -1,45 +1,89 @@
-
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700|Noto+Sans:400,700|Noto+Serif);
-
-/* -------  Structure ------- */
+/* -------  css page layout ------- */
 
 body {
-	background-image:url(images/subtle_brown_mini_waves.png);
-  	margin: 0;
-}
-/* place header here*/
-header {
-	font-family: 'Playfair Display', serif;
-	height: 140px;
-	background-color: #e7e1dc;
-	padding : 10px;
-		
-}
-a:link { color: #38786a; }
-a:visited { color: #38786a; }
-a:hover { color: #403933; }
-a:active { color: #403933; }
-
-
-footer {
-	height: 90px;
-	background-color: #807871;
-	background-image:url(images/subtle_brown_mini_waves.png);
-	text-align:center;
-}
-
-.wrapper {
-	width: 780px;
-	margin: auto;
-	background-color: #bda591;	
-}
-
-
-
-footer p {
-	color: black;	
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	  background-image:url(img/backgrounds/subtle_white_mini_waves.png);
+  }
+  
+  header {
+	  height: 140px;
+	  background-color: #81bee7;
+	  
+  }
+  
+  .logo {
+	font-family: 'Georgia', cursive;
+	font-size: 45px;
+	color: #c5c0b8;
 	text-align: center;
-}
-
-
-
+	letter-spacing: -3;
+	margin: 0;
+	padding: 20px 0 0 0;
+  }
+  
+  header h2 {
+	  font-family: 'Times New Roman', Times, serif;
+	  color: #0a0904;
+	  margin: 0px;
+	  font-size: 40px;
+	  text-align: center;
+  }
+  
+  footer {
+	  background-color: #81bee7;
+	 
+  
+  }
+  
+  section {
+	  padding: 0 25%;
+	margin: 80px 0;
+  }
+  
+  /* -------  Type ------- */
+  
+ 
+  p, li {
+   font-family: 'Montserrat', sans-serif;
+   line-height: 1.5em;
+   margin-bottom: 0;
+  }
+  
+  a {
+	  font-weight: 700;
+	  text-decoration: none;	
+  }
+  a:link { color: #38786a; }
+  a:visited { color: #38786a; }
+  a:hover { color: #403933; }
+  a:active { color: #403933; }
+  a:hover {
+	  text-decoration: underline;	
+  }
+  
+  em {
+	font-weight: bold;
+	font-style: normal;
+  }
+  
+  footer p {
+	  color: black;	
+	  text-align: center;
+	padding: 30px;
+	margin: 0;
+  }
+  /* styles images */
+  
+  img, iframe { 
+	width: 100%;	
+	border-radius: 8px;
+	border: 1px solid #464442;
+  } 
+  
+  /* -- Border Modifier styles ------- */
+  
+  .border-top {
+	padding-top: 80px;
+	border-top: 2px solid #403933;
+  }
