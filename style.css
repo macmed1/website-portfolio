@@ -17,7 +17,7 @@ body {
 	font-size: 45px;
 	color: #c5c0b8;
 	text-align: center;
-	letter-spacing: -3;
+	letter-spacing: 0;
 	margin: 0;
 	padding: 20px 0 0 0;
   }
@@ -38,7 +38,7 @@ body {
   
   section {
 	  padding: 0 25%;
-	margin: 80px 0;
+	margin: 10px 0;
   }
   
   /* -------  Type ------- */
@@ -84,6 +84,6 @@ body {
   /* -- Border Modifier styles ------- */
   
   .border-top {
-	padding-top: 80px;
-	border-top: 50px solid #403933;
+	padding-top: 20px;
+	border-top: 10px solid #403933;
   }
